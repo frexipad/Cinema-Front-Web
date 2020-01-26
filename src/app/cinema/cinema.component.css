@@ -1,3 +1,19 @@
 .clickable{
   cursor: pointer;
 }
+
+ul {
+  display: list-item;
+  list-style-type: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.ticket{
+  margin: 5px;
+  width: 55px;
+
+}

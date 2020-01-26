@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CinemaComponent } from './cinema/cinema.component';
 import {HttpClientModule} from '@angular/common/http';
 import { NotfoundComponent } from './notfound/notfound.component';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
